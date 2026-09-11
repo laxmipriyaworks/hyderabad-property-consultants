@@ -1,0 +1,468 @@
+/* =========================================================
+   AURO SAPPHIRE - COLOR THEME ONLY
+   ========================================================= */
+
+.auro-sapphire-page {
+  --dark: #1a1a1a;
+  --gold: #dab558;
+  --cream: #fcfbfa;
+  --white: #ffffff;
+  --text: #555555;
+  --light-text: #777777;
+  --border: #e5e1d8;
+}
+
+
+/* =========================================================
+   MAIN PAGE TEXT
+   ========================================================= */
+
+.auro-sapphire-page {
+  color: #555555;
+}
+
+
+/* =========================================================
+   ALL HEADINGS
+   Dark: #1a1a1a
+   ========================================================= */
+
+.auro-sapphire-page h1,
+.auro-sapphire-page h2,
+.auro-sapphire-page h3,
+.auro-sapphire-page h4,
+.auro-sapphire-page h5,
+.auro-sapphire-page h6 {
+  color: #1a1a1a !important;
+}
+
+
+/* =========================================================
+   SECTION TITLES
+   Existing SectionTitle uses inline GREEN.
+   Override GREEN with GOLD.
+   ========================================================= */
+
+.auro-sapphire-page section h2[style] {
+  color: #dab558 !important;
+}
+
+
+/* Small line below section headings */
+.auro-sapphire-page section h2 + div[style] {
+  background-color: #dab558 !important;
+}
+
+
+/* =========================================================
+   GOLD HIGHLIGHT / ACCENT
+   Existing GREEN inline styles
+   ========================================================= */
+
+.auro-sapphire-page [style*="background-color: #0e3178"],
+.auro-sapphire-page [style*="background-color:#0e3178"],
+.auro-sapphire-page [style*="background-color: #0e3178"] {
+  background-color: #dab558 !important;
+}
+
+.auro-sapphire-page [style*="color: #0e3178"],
+.auro-sapphire-page [style*="color:#0e3178"],
+.auro-sapphire-page [style*="color: #0e3178"] {
+  color: #dab558 !important;
+}
+
+
+/* =========================================================
+   HEADER
+   ========================================================= */
+
+.auro-sapphire-page header {
+  color: #1a1a1a;
+}
+
+.auro-sapphire-page header a {
+  color: #1a1a1a;
+}
+
+.auro-sapphire-page header a:hover {
+  color: #dab558;
+}
+
+
+/* AURO REALTY logo */
+.auro-sapphire-page header a span:first-child {
+  color: #dab558 !important;
+}
+
+
+/* SAPPHIRE logo text */
+.auro-sapphire-page header a span:last-child {
+  color: #1a1a1a !important;
+}
+
+
+/* Header navigation hover */
+.auro-sapphire-page header nav a:hover {
+  color: #dab558 !important;
+}
+
+
+/* Header Enquire button */
+.auro-sapphire-page header button {
+  background-color: #dab558 !important;
+  color: #1a1a1a !important;
+}
+
+
+/* =========================================================
+   HERO
+   ========================================================= */
+
+
+/* Vertical Enquire Now */
+.auro-sapphire-page #home a[style] {
+  background-color: #dab558 !important;
+  color: #1a1a1a !important;
+}
+
+
+/* =========================================================
+   PROPERTY INFORMATION CARD
+   ========================================================= */
+
+.auro-sapphire-page .Property-section p {
+  color: #555555;
+}
+
+.auro-sapphire-page .Property-section p.text-gray-700 {
+  color: #1a1a1a !important;
+}
+
+.auro-sapphire-page .Property-section p.text-gray-500 {
+  color: #777777 !important;
+}
+
+.auro-sapphire-page .Property-section p.text-gray-800 {
+  color: #1a1a1a !important;
+}
+
+
+/* Property card Enquire button */
+.auro-sapphire-page .Property-section a[style] {
+  background-color: #dab558 !important;
+  color: #1a1a1a !important;
+}
+
+
+/* =========================================================
+   OVERVIEW
+   ========================================================= */
+
+.auro-sapphire-page #overview p {
+  color: #555555;
+}
+
+.auro-sapphire-page #overview h3 {
+  color: #1a1a1a !important;
+}
+
+.auro-sapphire-page #overview strong {
+  color: #1a1a1a;
+}
+
+
+/* =========================================================
+   DOWNLOADS
+   Existing bg-[#fafaf7]
+   ========================================================= */
+
+.auro-sapphire-page section.bg-\[\#fafaf7\] {
+  background-color: #fcfbfa !important;
+}
+
+
+/* Download cards */
+.auro-sapphire-page section.bg-\[\#fafaf7\] a {
+  background-color: #ffffff;
+  border-color: #e5e1d8 !important;
+}
+
+
+/* Download button */
+.auro-sapphire-page section.bg-\[\#fafaf7\] a div[style] {
+  background-color: #dab558 !important;
+  color: #1a1a1a !important;
+}
+
+
+/* =========================================================
+   CONFIGURATION
+   Existing bg-[#f7f7f2]
+   ========================================================= */
+
+.auro-sapphire-page section.bg-\[\#f7f7f2\] {
+  background-color: #fcfbfa !important;
+}
+
+
+/* Configuration cards */
+.auro-sapphire-page section.bg-\[\#f7f7f2\] .bg-white {
+  background-color: #ffffff;
+  border-color: #e5e1d8 !important;
+}
+
+
+/* Configuration heading */
+.auro-sapphire-page section.bg-\[\#f7f7f2\] h3 {
+  color: #1a1a1a !important;
+}
+
+
+/* Configuration enquire button */
+.auro-sapphire-page section.bg-\[\#f7f7f2\] a[style] {
+  background-color: #dab558 !important;
+  color: #1a1a1a !important;
+}
+
+
+/* =========================================================
+   REASONS TO MAKE SAPPHIRE YOUR HOME
+   ========================================================= */
+
+.auro-sapphire-page #overview ~ section h3 {
+  color: #1a1a1a !important;
+}
+
+
+/* =========================================================
+   FOUR ICONS OF LIFE
+   ========================================================= */
+
+.auro-sapphire-page section.bg-\[\#fafaf7\] h3 {
+  color: #1a1a1a !important;
+}
+
+
+/* Tower cards */
+.auro-sapphire-page section.bg-\[\#fafaf7\] .border-gray-200 {
+  border-color: #e5e1d8 !important;
+}
+
+
+/* Tower title */
+.auro-sapphire-page section.bg-\[\#fafaf7\] h3[style] {
+  color: #dab558 !important;
+}
+
+
+/* Tower subtitle */
+.auro-sapphire-page section.bg-\[\#fafaf7\] h4 {
+  color: #1a1a1a !important;
+}
+
+
+/* Tower description */
+.auro-sapphire-page section.bg-\[\#fafaf7\] p {
+  color: #555555;
+}
+
+
+/* =========================================================
+   LUXURY LIVING EXPERIENCE
+   ========================================================= */
+
+.auro-sapphire-page section:not(.bg-\[\#fafaf7\]):not(.bg-\[\#f7f7f2\]) {
+  color: #555555;
+}
+
+
+/* Feature boxes */
+.auro-sapphire-page .border-\[\#b8c5b8\] {
+  border-color: #e5e1d8 !important;
+}
+
+
+/* Feature box text */
+.auro-sapphire-page .border-\[\#b8c5b8\] span {
+  color: #dab558 !important;
+}
+
+
+/* =========================================================
+   CLUB SAPPHIRE
+   ========================================================= */
+
+.auro-sapphire-page #amenities {
+  background-color: #fcfbfa !important;
+}
+
+.auro-sapphire-page #amenities p {
+  color: #555555;
+}
+
+.auro-sapphire-page #amenities h3 {
+  color: #1a1a1a !important;
+}
+
+
+/* Amenity floor title */
+.auro-sapphire-page #amenities p[style] {
+  color: #dab558 !important;
+}
+
+
+/* Amenity floor cards */
+.auro-sapphire-page #amenities .bg-white {
+  background-color: #ffffff;
+}
+
+
+/* =========================================================
+   SCAPE AMENITIES
+   ========================================================= */
+
+.auro-sapphire-page section.bg-\[\#fafaf7\] p {
+  color: #555555;
+}
+
+
+/* Amenity image labels */
+.auro-sapphire-page section.bg-\[\#fafaf7\] .bg-white p {
+  color: #1a1a1a;
+}
+
+
+/* =========================================================
+   PLANS
+   ========================================================= */
+
+.auro-sapphire-page #plans {
+  background-color: #ffffff;
+}
+
+
+/* Master Plan / Floor Plan */
+.auro-sapphire-page #plans .border-gray-200 {
+  border-color: #e5e1d8 !important;
+}
+
+
+/* Active MASTER PLAN */
+.auro-sapphire-page #plans a span[style] {
+  color: #dab558 !important;
+}
+
+
+/* Inactive FLOOR PLAN */
+.auro-sapphire-page #plans a span.text-gray-400 {
+  color: #777777 !important;
+}
+
+.auro-sapphire-page #plans a:hover span {
+  color: #dab558 !important;
+}
+
+
+/* =========================================================
+   CONNECTIVITY
+   ========================================================= */
+
+.auro-sapphire-page #connectivity {
+  background-color: #fcfbfa !important;
+}
+
+.auro-sapphire-page #connectivity p {
+  color: #555555;
+}
+
+
+/* Connectivity category titles */
+.auro-sapphire-page #connectivity h3 {
+  color: #1a1a1a !important;
+}
+
+
+/* Location group headings with inline GREEN */
+.auro-sapphire-page #connectivity h3[style] {
+  color: #dab558 !important;
+}
+
+
+/* =========================================================
+   UNIT PLANS
+   ========================================================= */
+
+.auro-sapphire-page section.bg-\[\#fafaf7\] .border-gray-200 {
+  border-color: #e5e1d8 !important;
+}
+
+
+/* Unit plan title bars */
+.auro-sapphire-page section.bg-\[\#fafaf7\] div[style] {
+  background-color: #dab558 !important;
+  color: #1a1a1a !important;
+}
+
+
+/* =========================================================
+   ABOUT DEVELOPER
+   ========================================================= */
+
+.auro-sapphire-page #developer {
+  background-color: #fcfbfa !important;
+}
+
+.auro-sapphire-page #developer p {
+  color: #555555;
+}
+
+
+/* =========================================================
+   ENQUIRY BAR
+   ========================================================= */
+
+.auro-sapphire-page #enquiry {
+background: linear-gradient(180deg, #007a4c 0, #008594 50%, #0e3178 100%);
+    color: #fff !important;
+}
+
+
+/* Enquiry inputs */
+.auro-sapphire-page #enquiry input,
+.auro-sapphire-page #enquiry select {
+  background-color: #ffffff;
+  color: #1a1a1a;
+}
+
+
+/* Submit button */
+.auro-sapphire-page #enquiry button {
+  background-color: #dab558 !important;
+  color: #1a1a1a !important;
+}
+
+
+/* =========================================================
+   FOOTER
+   ========================================================= */
+
+.auro-sapphire-page footer {
+  background-color: #fcfbfa !important;
+}
+
+.auro-sapphire-page footer p:first-child {
+  color: #1a1a1a !important;
+}
+
+.auro-sapphire-page footer p:last-child {
+  color: #777777 !important;
+}
+.pt-\[58px\] {
+    padding-top: 90px;
+}
+
+@media (max-width: 767px) {
+  .h-16 {
+    height: 3rem;
+  }
+}
